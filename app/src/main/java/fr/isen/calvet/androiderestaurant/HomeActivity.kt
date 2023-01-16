@@ -14,5 +14,13 @@ class HomeActivity : AppCompatActivity() {
         action.setOnClickListener{
             Snackbar.make(it, "Entrées", Snackbar.LENGTH_SHORT).show()
         }
+        val action2 = findViewById<Button>(R.id.button2)
+        action2.setOnClickListener{
+            Snackbar.make(it, "Plats", Snackbar.LENGTH_SHORT).show()
+        }
+        val action3 = findViewById<Button>(R.id.button3)
+        action3.setOnClickListener{
+            Snackbar.make(it, "Désserts", Snackbar.LENGTH_SHORT).show()
+        }
     }
 }
