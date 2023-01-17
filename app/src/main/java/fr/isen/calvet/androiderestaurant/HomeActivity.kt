@@ -15,7 +15,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button1.setOnClickListener {
-            val intent = Intent(this, DishesActivity::class.java)
+            val intent = Intent(this, CategoryActivity::class.java)
             intent.putExtra("Title", getString(R.string.first))
             startActivity(intent)
             finish()
@@ -23,7 +23,7 @@ class HomeActivity : AppCompatActivity() {
             //Toast.makeText( this,"Entrées", Toast.LENGTH_SHORT).show()
         }
         binding.button2.setOnClickListener {
-            val intent = Intent(this, DishesActivity::class.java)
+            val intent = Intent(this, CategoryActivity::class.java)
             intent.putExtra("Title", getString(R.string.second))
             startActivity(intent)
             finish()
@@ -31,7 +31,7 @@ class HomeActivity : AppCompatActivity() {
             //Toast.makeText( this,"Plats", Toast.LENGTH_SHORT).show()
         }
         binding.button3.setOnClickListener {
-            val intent = Intent(this, DishesActivity::class.java)
+            val intent = Intent(this, CategoryActivity::class.java)
             intent.putExtra("Title", getString(R.string.third))
             startActivity(intent)
             finish()
