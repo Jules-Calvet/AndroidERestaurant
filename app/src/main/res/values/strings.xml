@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">AndroidERestaurant</string>
-    <string name="first">Starters</string>
-    <string name="second">Main Courses</string>
+    <string name="first">Entrées</string>
+    <string name="second">Plats</string>
     <string name="third">Desserts</string>
 
     <string-array name="starters">
@@ -19,4 +19,6 @@
         <item>Fondant au chocolat</item>
         <item>Banane flambée</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -18,7 +18,6 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, CategoryActivity::class.java)
             intent.putExtra("Title", getString(R.string.first))
             startActivity(intent)
-            finish()
             //Snackbar.make(it, "Entrées", Snackbar.LENGTH_SHORT).show()
             //Toast.makeText( this,"Entrées", Toast.LENGTH_SHORT).show()
         }
@@ -26,7 +25,6 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, CategoryActivity::class.java)
             intent.putExtra("Title", getString(R.string.second))
             startActivity(intent)
-            finish()
             //Snackbar.make(it, "Plats", Snackbar.LENGTH_SHORT).show()
             //Toast.makeText( this,"Plats", Toast.LENGTH_SHORT).show()
         }
@@ -34,7 +32,6 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, CategoryActivity::class.java)
             intent.putExtra("Title", getString(R.string.third))
             startActivity(intent)
-            finish()
             //Snackbar.make(it, "Désserts", Snackbar.LENGTH_SHORT).show()
             //Toast.makeText( this,"Désserts", Toast.LENGTH_SHORT).show()
         }
